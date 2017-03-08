@@ -4,7 +4,6 @@ import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewAnimationUtils;
@@ -34,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView questionNumberTextView;
     private static final String TAG = "FlagQuiz Activity";
     private static final int FLAGS_IN_QUIZ = 2;
-    private FragmentManager fm;
+    //private FragmentManager fm;
     private Button btnA;
     private Button btnB;
     private Button btnC;
