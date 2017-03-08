@@ -17,7 +17,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/question_number"
+        android:text="@string/question_number2"
         tools:layout_width="match_parent"
         android:textAlignment="center"
         android:id="@+id/qTextView" />
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
 
         android:id="@+id/imageView"
-        app:srcCompat="@drawable/achina"
+        app:srcCompat="@drawable/jamaica"
         android:layout_below="@+id/qTextView"
         android:layout_marginTop="17dp" />
 

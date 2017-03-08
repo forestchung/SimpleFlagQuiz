@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">SimpleFlagQuiz</string>
-    <string name="question_number1">Question 1 of 4</string>
-    <string name="question_number2">Question 2 of 4</string>
+    <string name="question_number1">Question 1 of 2</string>
+    <string name="question_number2">Question 2 of 2</string>
     <string name="question_number3">Question 3 of 4</string>
     <string name="question_number4">Question 4 of 4</string>
+    <string name="question">Question %1$d of %2$d</string>
+    <string name="results">%1$d guesses, %2$.02f%% correct</string>
+    <string name="reset_quiz">Reset Quiz</string>
 </resources>

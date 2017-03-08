@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/question_number"
+        android:text="@string/question_number1"
         tools:layout_width="match_parent"
         android:textAlignment="center"
         android:id="@+id/qTextView" />
@@ -47,18 +47,20 @@
             android:layout_height="wrap_content">
 
             <Button
-                android:text="China"
+                android:id="@+id/buttonA"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/buttonA"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:text="JAPAN"
+                tools:text="JAPAN" />
 
             <Button
-                android:text="Japan"
+                android:id="@+id/buttonB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/buttonB"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:text="CHINA"
+                tools:text="CHINA" />
         </LinearLayout>
 
         <LinearLayout
